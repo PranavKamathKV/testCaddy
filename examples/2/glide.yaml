@@ -1,0 +1,12 @@
+package: .
+import:
+- package: github.com/gorilla/mux
+  version: ^1.7.1
+- package: github.com/mholt/caddy
+  version: ^1.0.0-beta1
+  subpackages:
+  - caddyhttp
+- package: github.com/lucas-clemente/quic-go
+  version: ^0.11.1
+  subpackages:
+  - h2quic

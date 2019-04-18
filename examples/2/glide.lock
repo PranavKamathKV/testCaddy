@@ -1,0 +1,160 @@
+hash: 51eff8f38c8aa4e0a459e789c25fbd1577eb766bd64463ce18a87c3e515db838
+updated: 2019-04-18T16:49:44.242512447+05:30
+imports:
+- name: github.com/cenkalti/backoff
+  version: 1e4cf3da559842a91afcb6ea6141451e6c30c618
+- name: github.com/cheekybits/genny
+  version: d2cf3cdd35ce0d789056c4bc02a4d6349c947caf
+  subpackages:
+  - generic
+- name: github.com/dustin/go-humanize
+  version: 9f541cc9db5d55bce703bd99987c9d5cb8eea45e
+- name: github.com/flynn/go-shlex
+  version: 3f9db97f856818214da2e1057f8ad84803971cff
+- name: github.com/go-acme/lego
+  version: 8edce3b2cfa77b0a0481aa92540589a4d08ab966
+  subpackages:
+  - acme
+  - acme/api
+  - acme/api/internal/nonces
+  - acme/api/internal/secure
+  - acme/api/internal/sender
+  - certcrypto
+  - certificate
+  - challenge
+  - challenge/dns01
+  - challenge/http01
+  - challenge/resolver
+  - challenge/tlsalpn01
+  - lego
+  - log
+  - platform/wait
+  - registration
+- name: github.com/google/uuid
+  version: c2e93f3ae59f2904160ceaab466009f965df46d6
+- name: github.com/gorilla/mux
+  version: c5c6c98bc25355028a63748a498942a6398ccd22
+- name: github.com/gorilla/websocket
+  version: 0ec3d1bd7fe50c503d6df98ee649d81f4857c564
+- name: github.com/hashicorp/go-syslog
+  version: 8d1874e3e8d1862b74e0536851e218c4571066a5
+- name: github.com/jimstudt/http-authentication
+  version: 3eca13d6893afd7ecabe15f4445f5d2872a1b012
+  subpackages:
+  - basic
+- name: github.com/klauspost/cpuid
+  version: 0da02118eaa37aa89aea6776b464a4ad00990af1
+- name: github.com/lucas-clemente/quic-go
+  version: 8dcdf12ff78def6cfd36107d8bf42aa38110fa94
+  subpackages:
+  - h2quic
+  - internal/ackhandler
+  - internal/congestion
+  - internal/flowcontrol
+  - internal/handshake
+  - internal/protocol
+  - internal/qerr
+  - internal/utils
+  - internal/wire
+- name: github.com/marten-seemann/qtls
+  version: 65ca381cd298d7e0aef0de8ba523a870ec5a96fe
+- name: github.com/mholt/caddy
+  version: 657780bcdf1dae53269e4b024336bea6fb380e40
+  subpackages:
+  - caddyfile
+  - caddyhttp
+  - caddyhttp/basicauth
+  - caddyhttp/bind
+  - caddyhttp/browse
+  - caddyhttp/errors
+  - caddyhttp/expvar
+  - caddyhttp/extensions
+  - caddyhttp/fastcgi
+  - caddyhttp/gzip
+  - caddyhttp/header
+  - caddyhttp/httpserver
+  - caddyhttp/index
+  - caddyhttp/internalsrv
+  - caddyhttp/limits
+  - caddyhttp/log
+  - caddyhttp/markdown
+  - caddyhttp/markdown/metadata
+  - caddyhttp/markdown/summary
+  - caddyhttp/mime
+  - caddyhttp/pprof
+  - caddyhttp/proxy
+  - caddyhttp/push
+  - caddyhttp/redirect
+  - caddyhttp/requestid
+  - caddyhttp/rewrite
+  - caddyhttp/root
+  - caddyhttp/staticfiles
+  - caddyhttp/status
+  - caddyhttp/templates
+  - caddyhttp/timeouts
+  - caddyhttp/websocket
+  - caddytls
+  - onevent
+  - onevent/hook
+  - telemetry
+- name: github.com/mholt/certmagic
+  version: f1fdb7fe9cd13ea581d3a781e3612211af137efd
+- name: github.com/miekg/dns
+  version: cfee849963ab7a27e9597c40aee1e903f8e55ce2
+- name: github.com/naoina/go-stringutil
+  version: 6b638e95a32d0c1131db0e7fe83775cbea4a0d0b
+- name: github.com/naoina/toml
+  version: 9fafd69674167c06933b1787ae235618431ce87f
+  subpackages:
+  - ast
+- name: github.com/russross/blackfriday
+  version: f3ccc8fc06d5d2e48a7083dcf0180c00a8a284cc
+- name: golang.org/x/crypto
+  version: f416ebab96af27ca70b6e5c23d6a0747530da626
+  subpackages:
+  - chacha20poly1305
+  - cryptobyte
+  - cryptobyte/asn1
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - hkdf
+  - internal/chacha20
+  - internal/subtle
+  - ocsp
+  - pbkdf2
+  - poly1305
+- name: golang.org/x/net
+  version: 1da14a5a36f220ea3f03470682b737b1dfd5de22
+  subpackages:
+  - bpf
+  - http/httpguts
+  - http2
+  - http2/hpack
+  - idna
+  - internal/iana
+  - internal/socket
+  - ipv4
+  - ipv6
+- name: golang.org/x/sys
+  version: 12500544f89f9420afe9529ba8940bf72d294972
+  subpackages:
+  - cpu
+  - unix
+- name: golang.org/x/text
+  version: f4905fbd45b6790792202848439271c74074bbfd
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: gopkg.in/natefinch/lumberjack.v2
+  version: a96e63847dc3c67d17befa69c303767e2f84e54f
+- name: gopkg.in/square/go-jose.v2
+  version: 730df5f748271903322feb182be83b43ebbbe27d
+  subpackages:
+  - cipher
+  - json
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports: []
