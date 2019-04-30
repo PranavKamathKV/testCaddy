@@ -1,7 +1,0 @@
-http://caddyTest.pranav.com
-
-git github.com/PranavKamathKV/testCaddy . {
-    hook /_webhook testSecret@123
-}
-
-root caddyTest
